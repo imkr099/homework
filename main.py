@@ -12,4 +12,3 @@ h1=Human('Bakai','Kudret','Talgar','Barsbek','Sultan','Ivan','Osman',
 
 h1.fly()
 print()
-
