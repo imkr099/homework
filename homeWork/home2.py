@@ -18,7 +18,7 @@ class Hero:
 class Air(Hero):
     Speed = 300
     def __init__(self,name, nickname, hp, damage, fly = False):
-        super(Air, self).__init__(name, nickname, hp, damage)
+        super().__init__(name, nickname, hp, damage)
         self.fly = fly
 
     def brand_phrase(self):
@@ -28,17 +28,17 @@ class Air(Hero):
 class Fire(Hero):
     power = 100
     def __init__(self, name, nickname, hp, damage, fly = False):
-        super(Fire, self).__init__(name, nickname, hp, damage)
+        super().__init__(name, nickname, hp, damage)
         self.fly = fly
-    def heal(self):
+    def fire(self):
         self.fly = True
         __Gen_x = None
 class Magic(Hero):
     mythic = 200
     def __init__(self, name, nickname, hp, damage, fly = False):
-        super(Magic, self).__init__(name, nickname, hp, damage)
+        super().__init__(name, nickname, hp, damage)
         self.fly = fly
-    def two_damage(self):
+    def myth(self):
         self.fly = True
         __Gen_x = None
 
